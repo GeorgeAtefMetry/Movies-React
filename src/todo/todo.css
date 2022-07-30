@@ -1,0 +1,58 @@
+.background{
+    background-color: #032532;
+    margin-top: 60px;
+    padding: 30px;
+}
+.background input{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.background button{
+    background-color: #C69F09;
+    width: 120px;
+    box-shadow: none;
+}
+.background button{
+    background-color: #c69f09;
+    color: #02202B;
+    box-shadow: none;
+}
+.background button:hover{
+    background-color: #f5c60e;
+    box-shadow: none;
+    color: #02202B;
+}
+.background button:focus{
+    background-color: #f5c60e;
+    box-shadow: none;
+    color: #02202B;
+}
+.background input{
+    background-color: transparent;
+    border-color: #c69f09;
+}
+.background  input:focus{
+    color: #c69f09;
+    background-color: transparent;
+    border-color: #c69f09;
+}
+.values{
+    background-color: #C69F09;
+    padding: 30px;
+}
+.values button{
+    margin-right:50px;
+    margin-left:50px;
+}
+.field{
+    padding:20px;
+}
+.checked{
+    text-decoration: line-through;
+}
+.non-checked{
+    text-decoration: none;
+}
+.text-decoration-line-throug{
+    text-decoration: line-through;
+}

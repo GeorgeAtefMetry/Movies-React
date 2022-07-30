@@ -1,0 +1,40 @@
+.details{
+    border: 5px solid #F2B901;
+    border-radius: 20px;
+    padding: 30px;
+    color: antiquewhite;
+}
+.mainPara{
+    color: rgb(242, 185, 1);
+    font-size: 30px;
+    text-align: center;
+}
+.img{
+    border-radius: 10px;
+}
+.mainColor{
+    color: #F2B901;
+    font-size: 20px;
+}
+.paraColor{
+    color: antiquewhite;
+    padding: 10px;
+}
+.icon{
+    font-size: 35px;
+    color: #F2B901;
+}
+.button{
+    width: 100%;
+    box-shadow: -1px 11px 11px 0px #000;
+    border-bottom-left-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    background-color: #F2B901 !important;
+    border-color: #F2B901 !important;
+}
+.vote{
+    margin-top: 30px;
+    border: 3px dashed #F2B901;
+    border-radius: 50%;
+    padding: 5px;
+}

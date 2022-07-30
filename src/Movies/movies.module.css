@@ -1,0 +1,70 @@
+body{
+    background-image: url('https://demo.webdigify.com/WCM01/WCM023_gamey/wp-content/themes/gamey/images/webdigify/body-bg.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: Fixed;
+    background-color: #032B38;
+    background-size: cover;
+}
+.carousel{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.carousel img{
+    border-radius: 20px;
+    height: 90vh;
+}
+.card{
+    width: 32% !important;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-right: 1%;
+    background-color: transparent !important;
+}
+.cardbody{
+    background-color: transparent;
+    overflow: hidden;
+    color: #fff;
+}
+.title i{
+    margin-left: 10px;
+    color: #F2B901;
+    border-color: #F2B901 !important;
+}
+.date span{
+    color: #F2B901;
+    margin-bottom: 10px;
+}
+.button{
+    bottom: -20px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    box-shadow: -1px 11px 11px 0px #000;
+    border-bottom-left-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    background-color: #F2B901 !important;
+    border-color: #F2B901 !important;
+}
+.btnPrev{
+    background-color: #F2B901 !important;
+    font-weight: 500 !important;
+}
+.btnNext{
+    background-color: #F2B901 !important;
+    font-weight: 500 !important ;
+}
+.fa-star{
+}
+.slider{
+    height: 90vh !important;
+}
+.awssld__controls__arrow-left, .awssld__controls__arrow-right{
+    color: #F2B901 !important;
+}

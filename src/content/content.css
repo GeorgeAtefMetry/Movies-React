@@ -1,0 +1,10 @@
+.each,.each-2{
+    margin: 10px ;
+    padding: 50px;
+}
+.each-2{
+    background-color: darkseagreen;
+}
+.each{
+    background-color: darkgray;
+}

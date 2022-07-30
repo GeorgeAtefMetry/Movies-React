@@ -1,0 +1,22 @@
+.details{
+    border: 5px solid #F2B901;
+    border-radius: 20px;
+    padding: 30px;
+    color: antiquewhite;
+}
+.img{
+    border-radius: 10px;
+    box-shadow:  0px 0px 14px 0px #f2b90152;
+    transition: all 1s ease-in-out;
+}
+.img:hover{
+    box-shadow:  0px 0px 24px 0px #f2b901c9;
+    transition: all 1s ease-in-out;
+}
+.mainColor{
+    color: #F2B901;
+    font-size: 25px;
+}
+.paraColor{
+    color: antiquewhite;
+}

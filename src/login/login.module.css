@@ -1,0 +1,37 @@
+.all input{
+    background-color: transparent;
+    border-color: #c69f09;
+}
+.all label{
+    color: #c69f09;
+    font-weight: bold;
+}
+.all input:focus{
+    color: #c69f09;
+    background-color: transparent;
+    border-color: #c69f09;
+}
+.all button{
+    background-color: #c69f09;
+    margin-right: 50%;
+    color: #02202B;
+    box-shadow:none
+}
+.all button:hover{
+    background-color: #f5c60e;
+    color: #02202B;
+    border-color: #f5c60e;
+    box-shadow:none
+}
+.all button:focus{
+    background-color: #f5c60e;
+    border-color: #f5c60e;
+    box-shadow:none;
+    color: #02202B;
+}
+.all button:visited{
+    background-color: #f5c60e;
+    box-shadow:none;
+    border-color: #f5c60e;
+    color: #02202B;
+}
