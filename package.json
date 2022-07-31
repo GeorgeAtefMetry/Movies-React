@@ -2,7 +2,7 @@
   "name": "dayone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://georgeatefmetry.github.io//Movies-React",
+  "homepage": "https://georgeatefmetry.github.io/movies",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
