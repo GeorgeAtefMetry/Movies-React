@@ -3,7 +3,7 @@ const INITIAL_STATE ={
 }
 
 export default function MovieReduce(state = INITIAL_STATE, action ) {
-
+    console.log(state, action)
     switch (action.type){
         case "set_movies" : 
             return {...state, movies:[...state.movies, action.payload]}
