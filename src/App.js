@@ -16,6 +16,7 @@ import Search from './search/search'
 import favorites from './favorites/favorites';
 import {LanguageProvider} from './context/context'
 import {useState} from 'react'
+import Footer from './Footer/footer';
 function App() {
 
 
@@ -39,13 +40,9 @@ function App() {
             <Route path="/favorites" exact component={favorites}></Route>
             <Route path="*"  component={Notfound}></Route>
           </Switch>
+          <Footer></Footer>
           </LanguageProvider>
         </Router>
-
-
-      {/* </div> */}
-      {/* <Portfolio></Portfolio> */}
-      {/*<Users/> */}
     </>
   );
 }
