@@ -18,13 +18,12 @@ body{
 .carousel img{
     border-radius: 20px;
     height: 90vh;
+    width: 100%;
 }
 .card{
-    width: 32% !important;
     text-align: center;
     margin-bottom: 50px;
     border-radius: 10px;
-    margin-right: 1%;
     background-color: transparent !important;
 }
 .cardbody{
@@ -67,4 +66,11 @@ body{
 }
 .awssld__controls__arrow-left, .awssld__controls__arrow-right{
     color: #F2B901 !important;
+}
+
+@media (max-width:480px) {
+    .carousel img{
+        height: 400px !important;
+        width: 300px;
+    }
 }

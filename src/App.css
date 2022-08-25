@@ -13,3 +13,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.navbar-toggler-icon{
+  background-color: #fff !important;
+  content: 'DDD';
+  color: #000;
+}

@@ -84,7 +84,7 @@ const Movies = () =>{
     return(
         <>
 
-        <Carousel className={Classmovie.carousel}>
+        <Carousel className={`${Classmovie.carousel}`}>
         <Carousel.Item interval={1000}>
             <img
             className="d-block w-60"
@@ -129,7 +129,7 @@ const Movies = () =>{
             {movie.map((movie) => {
             return(
                 <>        
-                <Card className={Classmovie.card}>
+                <Card className={`col-sm-6  col-lg-4 ${Classmovie.card}`}>
                     <Card.Img variant="top" src={`https://image.tmdb.org/t/p/w500/${movie.backdrop_path}`} style={{boxShadow:" -1px 11px 11px 0px #000"}} />
                     <Card.Body className={Classmovie.cardbody}>
                         <Card.Title className={Classmovie.title} style={{ overflow:"hidden",marginBottom:'20px' }}>
