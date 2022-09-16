@@ -17,6 +17,8 @@ import favorites from './favorites/favorites';
 import {LanguageProvider} from './context/context'
 import {useState} from 'react'
 import Footer from './Footer/footer';
+import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
+import { HashRouter } from 'react-router-dom/cjs/react-router-dom';
 function App() {
 
 
@@ -29,7 +31,7 @@ function App() {
         <Router>
           <LanguageProvider value={{language, setLanguage}}>
           <Header></Header>
-          <Switch>
+          <HashRouter>
             <Route path="/login" exact component={Login}></Route>
             <Route path="/" exact component={Movies}></Route>
             <Route path="/register" exact component={Register}></Route>
@@ -39,7 +41,7 @@ function App() {
             <Route path="/search" exact component={Search}></Route>
             <Route path="/favorites" exact component={favorites}></Route>
             <Route path="*"  component={Notfound}></Route>
-          </Switch>
+          </HashRouter>
           <Footer></Footer>
           </LanguageProvider>
         </Router>
