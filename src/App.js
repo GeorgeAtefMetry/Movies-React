@@ -7,7 +7,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  HashRouter,
 } from "react-router-dom";
 import Header from './header/header';
 import Movies from './Movies/Movies';
@@ -27,7 +26,7 @@ function App() {
 
   return (
     <>
-        <HashRouter>
+        <Router>
           <LanguageProvider value={{language, setLanguage}}>
           <Header></Header>
           <Switch>
@@ -43,7 +42,7 @@ function App() {
           </Switch>
           <Footer></Footer>
           </LanguageProvider>
-        </HashRouter>
+        </Router>
     </>
   );
 }
