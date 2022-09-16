@@ -7,6 +7,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  HashRouter,
 } from "react-router-dom";
 import Header from './header/header';
 import Movies from './Movies/Movies';
@@ -17,8 +18,6 @@ import favorites from './favorites/favorites';
 import {LanguageProvider} from './context/context'
 import {useState} from 'react'
 import Footer from './Footer/footer';
-import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
-import { HashRouter } from 'react-router-dom/cjs/react-router-dom';
 function App() {
 
 
@@ -28,10 +27,10 @@ function App() {
 
   return (
     <>
-        <Router>
+        <HashRouter>
           <LanguageProvider value={{language, setLanguage}}>
           <Header></Header>
-          <HashRouter>
+          <Switch>
             <Route path="/login" exact component={Login}></Route>
             <Route path="/" exact component={Movies}></Route>
             <Route path="/register" exact component={Register}></Route>
@@ -41,10 +40,10 @@ function App() {
             <Route path="/search" exact component={Search}></Route>
             <Route path="/favorites" exact component={favorites}></Route>
             <Route path="*"  component={Notfound}></Route>
-          </HashRouter>
+          </Switch>
           <Footer></Footer>
           </LanguageProvider>
-        </Router>
+        </HashRouter>
     </>
   );
 }
