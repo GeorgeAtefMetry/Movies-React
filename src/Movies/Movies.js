@@ -34,7 +34,7 @@ const Movies = () =>{
     useEffect(() => {
         axiosInstace.get('movie/popular',{params:{page:`${page}`}})
         .then((res)=>{
-            setMovies(res.data.results.slice(0,9))
+            setMovies(res.data.results.slice(0,15))
             // console.log(res.data.results)
             let favMovies = res.data.results
             favMovies.map((movie)=>{
